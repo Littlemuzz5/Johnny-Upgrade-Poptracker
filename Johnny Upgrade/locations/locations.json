@@ -2137,28 +2137,6 @@
                 ]
             },
             {
-                "name": "Coin 54",
-                "visibility_rules": [
-                    "coinsanity"
-                ],
-                "access_rules": [
-                    "^$coin_access|54"
-                ],
-                "sections": [
-                    {
-                        "name": "Coin 54",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 865,
-                        "y": 1000
-                    }
-                ]
-            },
-            {
                 "name": "Coin 53",
                 "visibility_rules": [
                     "coinsanity"
@@ -2243,28 +2221,6 @@
                         "map": "Overworld",
                         "x": 825,
                         "y": 910
-                    }
-                ]
-            },
-            {
-                "name": "Coin 76",
-                "visibility_rules": [
-                    "coinsanity"
-                ],
-                "access_rules": [
-                    "^$coin_access|76"
-                ],
-                "sections": [
-                    {
-                        "name": "Coin 76",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 840,
-                        "y": 950
                     }
                 ]
             },
@@ -5204,7 +5160,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin 140",
+                        "name": "Coin 197",
                         "item_count": 1
                     }
                 ],
@@ -5461,7 +5417,7 @@
         ]
     },
     {
-        "name": "Robot 1",
+        "name": "Robots",
         "children": [
             {
                 "name": "Robot 1",
@@ -5625,16 +5581,16 @@
         "name": "Bombs",
         "children": [
             {
-                "name": "Bomb 1",
+                "name": "Bomb 2",
                 "visibility_rules": [
                     "enemysanity"
                 ],
                 "access_rules": [
-                    "^$bomb_access|1"
+                    "^$bomb_access|2"
                 ],
                 "sections": [
                     {
-                        "name": "Bomb 1",
+                        "name": "Bomb 2",
                         "item_count": 1
                     }
                 ],
@@ -5647,16 +5603,16 @@
                 ]
             },
             {
-                "name": "Bomb 2",
+                "name": "Bomb 1",
                 "visibility_rules": [
                     "enemysanity"
                 ],
                 "access_rules": [
-                    "^$bomb_access|2"
+                    "^$bomb_access|1"
                 ],
                 "sections": [
                     {
-                        "name": "Bomb 2",
+                        "name": "Bomb 1",
                         "item_count": 1
                     }
                 ],

@@ -450,6 +450,13 @@ local function shop_tier_in_logic(track, tier)
     end
 
 
+    if track == "ammo" or track == "gun_power" then
+        if tracker_count("gun") < 1 then
+            return false
+        end
+    end
+
+
     local track_gates = SHOP_MULTIPLIER_GATES[track]
 
     if track_gates == nil then
@@ -467,28 +474,6 @@ local function shop_tier_in_logic(track, tier)
     end
 
     return true
-end
-
-function ammo_shop_access(tier)
-
-   
-    if tracker_count("gun") < 1 then
-        return AccessibilityLevel.None
-    end
-
-    return shop_tier_access("ammo", tier)
-end
-
-
-function gun_power_shop_access(tier)
-
-  
-    if tracker_count("gun") < 1 then
-        return AccessibilityLevel.None
-    end
-
-
-    return shop_tier_access("gun_power", tier)
 end
 
 
@@ -533,6 +518,14 @@ function energy_shop_access(tier)
 end
 
 
+function ammo_shop_access(tier)
+    return shop_tier_access("ammo", tier)
+end
+
+
+function gun_power_shop_access(tier)
+    return shop_tier_access("gun_power", tier)
+end
 
 
 function coin_multiplier_shop_access(tier)
