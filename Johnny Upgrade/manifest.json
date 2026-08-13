@@ -1,0 +1,18 @@
+﻿{
+    "name": "Johnny Upgrade",
+    "game_name": "Johnny Upgrade",
+    "package_uid": "Upgrade_Johnny_AP",
+    "package_version": "1.0.0",
+    "platform": "PC",
+    "variants": {
+        "<some_variant_uid>": {
+            "display_name": "Johnny Upgrade",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "versions_url": "https://example.com/versions.json",
+    "min_poptracker_version": "0.23.1",
+    "target_poptracker_version": "0.23.1"
+}

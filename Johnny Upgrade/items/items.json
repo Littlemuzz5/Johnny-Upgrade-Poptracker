@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Coin Multiplier",
+        "type": "consumable",
+        "img": "images/items/coin_multiplier.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12,
+        "codes": "coin_multiplier"
+    },
+    {
+        "name": "Double Jump",
+        "type": "toggle",
+        "img": "images/items/double_jump.png",
+        "codes": "double_jump"
+    },
+    {
+        "name": "Health",
+        "type": "consumable",
+        "img": "images/items/health.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12,
+        "codes": "health"
+    },
+    {
+        "name": "Jump Force",
+        "type": "consumable",
+        "img": "images/items/jump_force.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12,
+        "codes": "jump_force"
+    },
+    {
+        "name": "Speed",
+        "type": "consumable",
+        "img": "images/items/Speed.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12,
+        "codes": "speed"
+    },
+    {
+        "name": "Time Limit",
+        "type": "consumable",
+        "img": "images/items/time_limit.png",
+        "max_quantity": 24,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12,
+        "codes": "time_limit"
+    },
+    {
+        "name": "Ammo",
+        "type": "consumable",
+        "img": "images/items/ammo.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12,
+        "codes": "ammo"
+    },
+    {
+        "name": "Gun Power",
+        "type": "consumable",
+        "img": "images/items/gun_power.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12,
+        "codes": "gun_power"
+    },
+    {
+        "name": "Gun",
+        "type": "toggle",
+        "img": "images/items/gun.png",
+        "codes": "gun"
+        
+    },
+    {
+        "name": "Coinsanity",
+        "type": "toggle",
+        "img": "images/options/coinsanity.png",
+        "codes": "coinsanity",
+        "initial_active_state": true
+    },
+    {
+        "name": "Enemysanity",
+        "type": "toggle",
+        "img": "images/options/enemysanity.png",
+        "codes": "enemysanity",
+        "initial_active_state": true
+    },
+    {
+        "name": "Damage Boost Logic",
+        "type": "toggle",
+        "img": "images/options/damage.png",
+        "codes": "damage_logic",
+        "initial_active_state": true
+    },
+    {
+        "name": "Recoil Boost Logic",
+        "type": "toggle",
+        "img": "images/options/recoil.png",
+        "codes": "recoil_logic",
+        "initial_active_state": false
+    },
+    {
+        "name": "Knockback Boost Logic",
+        "type": "toggle",
+        "img": "images/options/knockback.png",
+        "codes": "knockback_logic",
+        "initial_active_state": false
+}
+]

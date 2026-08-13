@@ -1,0 +1,74 @@
+﻿
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Options",
+                            "dock": "right",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "itemgrid",
+                                "item_margin": "4, 4",
+                                "h_alignment": "right",
+                                "rows": [
+                                    [
+                                        "coinsanity",
+                                        "enemysanity",
+                                        "damage_logic",
+                                        "recoil_logic",
+                                        "knockback_logic"
+                                    ]
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Overworld",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Overworld"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shop",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shop"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

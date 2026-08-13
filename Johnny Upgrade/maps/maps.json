@@ -1,0 +1,15 @@
+
+[
+    {
+        "name": "Overworld",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Shop",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/shop.png"
+    }
+]

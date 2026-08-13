@@ -1,0 +1,35 @@
+
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "4, 4",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "coin_multiplier",
+                                "double_jump",
+                                "health",
+                                "jump_force",
+                                "speed",
+                                "time_limit",
+                                "gun",
+                                "ammo",
+                                "gun_power"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

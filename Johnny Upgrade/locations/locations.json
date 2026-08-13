@@ -1,0 +1,6321 @@
+[
+    {
+        "name": "Starting Area",
+        "children": [
+            {
+                "name": "Coin 2",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|2"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 480,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 3",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|3"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 520,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 4",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|4"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 4",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 560,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 11",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|11"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 11",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 650,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 1",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|1"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 380,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 6",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|6"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 6",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 340,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 8",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|8"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 8",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 300,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 5",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|5"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 5",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 345
+                    }
+                ]
+            },
+            {
+                "name": "Coin 7",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|7"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 7",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 320,
+                        "y": 345
+                    }
+                ]
+            },
+            {
+                "name": "Coin 9",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|9"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 9",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 280,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "name": "Coin 10",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|10"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 10",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 260,
+                        "y": 365
+                    }
+                ]
+            },
+            {
+                "name": "Coin 18",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|18"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 18",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 220,
+                        "y": 365
+                    }
+                ]
+            },
+            {
+                "name": "Coin 17",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|17"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 17",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 240,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "name": "Coin 95",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|95"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 95",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 260,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Coin 96",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|96"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 96",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 220,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Coin 19",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|19"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 19",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "name": "Coin 97",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|97"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 97",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 180,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Coin 94",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|94"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 94",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 180,
+                        "y": 365
+                    }
+                ]
+            },
+            {
+                "name": "Coin 98",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|98"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 98",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 790,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 100",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|100"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 100",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 770,
+                        "y": 345
+                    }
+                ]
+            },
+            {
+                "name": "Coin 99",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|99"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 99",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 750,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Coin 12",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|12"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 12",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 840,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "Coin 16",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|16"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 16",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 870,
+                        "y": 345
+                    }
+                ]
+            },
+            {
+                "name": "Coin 15",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|15"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 15",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 905,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Coin 14",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|14"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 14",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 945,
+                        "y": 345
+                    }
+                ]
+            },
+            {
+                "name": "Coin 13",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|13"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 13",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 965,
+                        "y": 395
+                    }
+                ]
+            },
+            {
+                "name": "Coin 102",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|102"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 102",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1040,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Coin 104",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|104"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 104",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1040,
+                        "y": 285
+                    }
+                ]
+            },
+            {
+                "name": "Coin 101",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|101"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 101",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1080,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Coin 103",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|103"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 103",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1080,
+                        "y": 285
+                    }
+                ]
+            },
+            {
+                "name": "Coin 105",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|105"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 105",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1120,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Coin 106",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|106"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 106",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1120,
+                        "y": 285
+                    }
+                ]
+            },
+            {
+                "name": "Coin 109",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|109"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 109",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1120,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Coin 107",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|107"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 107",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1160,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Coin 108",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|108"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 108",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1160,
+                        "y": 285
+                    }
+                ]
+            },
+            {
+                "name": "Coin 110",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|110"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 110",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1160,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Coin 111",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|111"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 111",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1270,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Coin 112",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|112"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 112",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1290,
+                        "y": 395
+                    }
+                ]
+            },
+            {
+                "name": "Coin 113",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|113"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 113",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1330,
+                        "y": 395
+                    }
+                ]
+            },
+            {
+                "name": "Coin 114",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|114"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 114",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1370,
+                        "y": 395
+                    }
+                ]
+            },
+            {
+                "name": "Coin 115",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|115"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 115",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1420,
+                        "y": 525
+                    }
+                ]
+            },
+            {
+                "name": "Coin 116",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|116"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 116",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1460,
+                        "y": 525
+                    }
+                ]
+            },
+            {
+                "name": "Coin 20",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|20"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 20",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1420,
+                        "y": 705
+                    }
+                ]
+            },
+            {
+                "name": "Coin 21",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|21"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 21",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1460,
+                        "y": 715
+                    }
+                ]
+            },
+            {
+                "name": "Coin 22",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|22"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 22",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1460,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Coin 23",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|23"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 23",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1490,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Coin 24",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|24"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 24",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1520,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Coin 25",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|25"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 25",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1530,
+                        "y": 730
+                    }
+                ]
+            },
+            {
+                "name": "Coin 26",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|26"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 26",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1530,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Coin 32",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|32"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 32",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1530,
+                        "y": 650
+                    }
+                ]
+            },
+            {
+                "name": "Coin 27",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|27"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 27",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1555,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Coin 28",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|28"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 28",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1590,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Coin 29",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|29"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 29",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1620,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Coin 30",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|30"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 30",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1610,
+                        "y": 730
+                    }
+                ]
+            },
+            {
+                "name": "Coin 31",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|31"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 31",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1610,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Coin 33",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|33"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 33",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1610,
+                        "y": 650
+                    }
+                ]
+            },
+            {
+                "name": "Coin 118",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|118"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 118",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1280,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 117",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|117"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 117",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1250,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 120",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|120"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 120",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1220,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 119",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|119"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 119",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1190,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 122",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|122"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 122",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1160,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 121",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|121"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 121",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1130,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 123",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|123"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 123",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1100,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 63",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|63"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 63",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1090,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 186",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|186"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 186",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1065,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "Coin 62",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|62"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 62",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1090,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 61",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|61"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 61",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1060,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 60",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|60"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 60",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1060,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 185",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|185"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 185",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1035,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "Coin 67",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|67"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 67",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1025,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 66",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|66"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 66",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1025,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 187",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|187"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 187",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1000,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "Coin 65",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|65"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 65",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 990,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 64",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|64"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 64",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 990,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 184",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|184"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 184",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 965,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "Coin 71",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|71"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 71",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 960,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 70",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|70"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 70",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 960,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 69",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|69"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 69",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 930,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 183",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|183"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 183",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 930,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "Coin 68",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|68"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 68",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 930,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 83",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|83"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 83",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 900,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 81",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|81"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 81",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 870,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Coin 182",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|182"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 182",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 895,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "Coin 82",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|82"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 82",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 900,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 80",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|80"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 80",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 870,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 194",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|194"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 194",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 915,
+                        "y": 910
+                    }
+                ]
+            },
+            {
+                "name": "Coin 79",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|79"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 79",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 925,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 58",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|58"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 58",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 925,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 59",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|59"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 59",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 925,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 193",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|193"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 193",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 885,
+                        "y": 910
+                    }
+                ]
+            },
+            {
+                "name": "Coin 78",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|78"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 78",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 895,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 56",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|56"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 56",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 895,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 57",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|57"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 57",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 895,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 77",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|77"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 77",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 865,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 54",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|54"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 54",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 865,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 55",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|55"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 55",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 865,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 192",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|192"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 192",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 855,
+                        "y": 910
+                    }
+                ]
+            },
+            {
+                "name": "Coin 54",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|54"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 54",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 865,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 53",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|53"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 53",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 840,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 52",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|52"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 52",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 840,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 76",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|76"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 76",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 840,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 191",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|191"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 191",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 825,
+                        "y": 910
+                    }
+                ]
+            },
+            {
+                "name": "Coin 76",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|76"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 76",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 840,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 51",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|51"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 51",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 815,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 50",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|50"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 50",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 815,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 75",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|75"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 75",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 815,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 190",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|190"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 190",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 800,
+                        "y": 910
+                    }
+                ]
+            },
+            {
+                "name": "Coin 49",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|49"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 49",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 790,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 48",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|48"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 48",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 790,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 74",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|74"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 74",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 790,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 189",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|189"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 189",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 775,
+                        "y": 910
+                    }
+                ]
+            },
+            {
+                "name": "Coin 47",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|47"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 47",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 760,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 46",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|46"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 46",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 760,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 73",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|73"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 73",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 760,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 188",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|188"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 188",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 745,
+                        "y": 910
+                    }
+                ]
+            },
+            {
+                "name": "Coin 36",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|36"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 36",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 725,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 35",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|35"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 35",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 725,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 72",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|72"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 72",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 725,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 34",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|34"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 34",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Coin 37",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|37"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 37",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Coin 38",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|38"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 38",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 790
+                    }
+                ]
+            },
+            {
+                "name": "Coin 39",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|39"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 39",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 840
+                    }
+                ]
+            },
+            {
+                "name": "Coin 40",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|40"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 40",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 890
+                    }
+                ]
+            },
+            {
+                "name": "Coin 41",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|41"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 41",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 940
+                    }
+                ]
+            },
+            {
+                "name": "Coin 42",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|42"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 42",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 990
+                    }
+                ]
+            },
+            {
+                "name": "Coin 43",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|43"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 43",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 1040
+                    }
+                ]
+            },
+            {
+                "name": "Coin 44",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|44"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 44",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 1080
+                    }
+                ]
+            },
+            {
+                "name": "Coin 45",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|45"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 45",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 630,
+                        "y": 1120
+                    }
+                ]
+            },
+            {
+                "name": "Coin 125",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|125"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 125",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 590,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Coin 126",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|126"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 126",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 590,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 124",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|124"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 124",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 550,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Coin 127",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|127"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 127",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 550,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Coin 128",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|128"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 128",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 480,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Coin 129",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|129"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 129",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 400,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Coin 90",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|90"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 90",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 330,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Coin 89",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|89"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 89",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Coin 91",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|91"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 91",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 775
+                    }
+                ]
+            },
+            {
+                "name": "Coin 88",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|88"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 88",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 395,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Coin 87",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|87"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 87",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 425,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Coin 92",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|92"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 92",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 425,
+                        "y": 775
+                    }
+                ]
+            },
+            {
+                "name": "Coin 86",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|86"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 86",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 455,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Coin 85",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|85"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 85",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 485,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Coin 84",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|84"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 84",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 520,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Coin 93",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|93"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 93",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 500,
+                        "y": 775
+                    }
+                ]
+            },
+            {
+                "name": "Coin 178",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|178"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 178",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Coin 177",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|177"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 177",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Coin 176",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|176"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 176",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "Coin 132",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|132"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 132",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 390,
+                        "y": 1230
+                    }
+                ]
+            },
+            {
+                "name": "Coin 130",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|130"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 130",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 1230
+                    }
+                ]
+            },
+            {
+                "name": "Coin 134",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|134"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 134",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 133",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|133"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 133",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 1180
+                    }
+                ]
+            },
+            {
+                "name": "Coin 131",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|131"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 131",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 320,
+                        "y": 1230
+                    }
+                ]
+            },
+            {
+                "name": "Coin 175",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|175"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 175",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 320,
+                        "y": 1015
+                    }
+                ]
+            },
+            {
+                "name": "Coin 173",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|173"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 173",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 320,
+                        "y": 1065
+                    }
+                ]
+            },
+            {
+                "name": "Coin 174",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|174"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 174",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 320,
+                        "y": 1125
+                    }
+                ]
+            },
+            {
+                "name": "Coin 142",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|142"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 142",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 300,
+                        "y": 980
+                    }
+                ]
+            },
+            {
+                "name": "Coin 150",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|150"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 150",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 300,
+                        "y": 1040
+                    }
+                ]
+            },
+            {
+                "name": "Coin 158",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|158"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 158",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 300,
+                        "y": 1095
+                    }
+                ]
+            },
+            {
+                "name": "Coin 166",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|166"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 166",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 300,
+                        "y": 1155
+                    }
+                ]
+            },
+            {
+                "name": "Coin 138",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|138"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 138",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 280,
+                        "y": 945
+                    }
+                ]
+            },
+            {
+                "name": "Coin 146",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|146"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 146",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 280,
+                        "y": 1008
+                    }
+                ]
+            },
+            {
+                "name": "Coin 154",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|154"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 154",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 280,
+                        "y": 1065
+                    }
+                ]
+            },
+            {
+                "name": "Coin 162",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|162"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 162",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 280,
+                        "y": 1125
+                    }
+                ]
+            },
+            {
+                "name": "Coin 170",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|170"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 170",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 280,
+                        "y": 1185
+                    }
+                ]
+            },
+            {
+                "name": "Coin 141",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|141"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 141",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 270,
+                        "y": 980
+                    }
+                ]
+            },
+            {
+                "name": "Coin 149",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|149"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 149",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 270,
+                        "y": 1040
+                    }
+                ]
+            },
+            {
+                "name": "Coin 157",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|157"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 157",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 270,
+                        "y": 1095
+                    }
+                ]
+            },
+            {
+                "name": "Coin 165",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|165"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 165",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 270,
+                        "y": 1155
+                    }
+                ]
+            },
+            {
+                "name": "Coin 137",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|137"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 137",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 255,
+                        "y": 945
+                    }
+                ]
+            },
+            {
+                "name": "Coin 145",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|145"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 145",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 255,
+                        "y": 1008
+                    }
+                ]
+            },
+            {
+                "name": "Coin 153",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|153"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 153",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 255,
+                        "y": 1065
+                    }
+                ]
+            },
+            {
+                "name": "Coin 161",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|161"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 161",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 255,
+                        "y": 1125
+                    }
+                ]
+            },
+            {
+                "name": "Coin 169",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|170"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 169",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 255,
+                        "y": 1185
+                    }
+                ]
+            },
+            {
+                "name": "Coin 140",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|140"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 140",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 240,
+                        "y": 980
+                    }
+                ]
+            },
+            {
+                "name": "Coin 148",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|148"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 148",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 240,
+                        "y": 1040
+                    }
+                ]
+            },
+            {
+                "name": "Coin 156",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|156"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 156",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 240,
+                        "y": 1095
+                    }
+                ]
+            },
+            {
+                "name": "Coin 164",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|164"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 164",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 240,
+                        "y": 1155
+                    }
+                ]
+            },
+            {
+                "name": "Coin 172",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|172"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 172",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 240,
+                        "y": 1215
+                    }
+                ]
+            },
+            {
+                "name": "Coin 136",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|136"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 136",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 230,
+                        "y": 945
+                    }
+                ]
+            },
+            {
+                "name": "Coin 144",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|144"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 144",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 230,
+                        "y": 1008
+                    }
+                ]
+            },
+            {
+                "name": "Coin 152",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|152"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 152",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 230,
+                        "y": 1065
+                    }
+                ]
+            },
+            {
+                "name": "Coin 160",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|160"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 160",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 230,
+                        "y": 1125
+                    }
+                ]
+            },
+            {
+                "name": "Coin 168",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|168"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 168",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 230,
+                        "y": 1185
+                    }
+                ]
+            },
+            {
+                "name": "Coin 180",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|180"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 180",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 230,
+                        "y": 1245
+                    }
+                ]
+            },
+            {
+                "name": "Coin 230",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|230"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 230",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 1390
+                    }
+                ]
+            },
+            {
+                "name": "Coin 229",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|229"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 229",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 1330
+                    }
+                ]
+            },
+            {
+                "name": "Coin 181",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|181"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 181",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 171",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|171"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 171",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 1215
+                    }
+                ]
+            },
+            {
+                "name": "Coin 139",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|139"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 139",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 980
+                    }
+                ]
+            },
+            {
+                "name": "Coin 147",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|147"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 147",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 1040
+                    }
+                ]
+            },
+            {
+                "name": "Coin 155",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|155"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 155",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 1095
+                    }
+                ]
+            },
+            {
+                "name": "Coin 163",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|163"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 163",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 215,
+                        "y": 1155
+                    }
+                ]
+            },
+            {
+                "name": "Coin 135",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|135"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 135",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 945
+                    }
+                ]
+            },
+            {
+                "name": "Coin 143",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|143"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 143",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 1008
+                    }
+                ]
+            },
+            {
+                "name": "Coin 151",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|151"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 151",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 1065
+                    }
+                ]
+            },
+            {
+                "name": "Coin 159",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|159"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 159",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 1125
+                    }
+                ]
+            },
+            {
+                "name": "Coin 167",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|167"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 167",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 1185
+                    }
+                ]
+            },
+            {
+                "name": "Coin 179",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|179"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 179",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 1245
+                    }
+                ]
+            },
+            {
+                "name": "Coin 232",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|232"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 232",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 520,
+                        "y": 1365
+                    }
+                ]
+            },
+            {
+                "name": "Coin 231",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|231"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 231",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 520,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 233",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|233"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 233",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 540,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 236",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|236"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 236",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 555,
+                        "y": 1365
+                    }
+                ]
+            },
+            {
+                "name": "Coin 234",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|234"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 234",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 570,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 237",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|237"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 237",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 585,
+                        "y": 1365
+                    }
+                ]
+            },
+            {
+                "name": "Coin 235",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|235"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 235",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 600,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 212",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|212"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 212",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 830,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 214", 
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|214"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 214",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 845,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 213",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|213"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 213",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 830,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 215",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|215"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 215",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 855,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 216",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|216"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 216",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 855,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 217",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|217"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 217",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 870,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 218",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|218"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 218",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 885,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 219",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|219"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 219",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 885,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 220",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|220"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 220",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 900,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 221",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|221"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 221",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 915,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 222",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|222"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 222",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 915,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 223",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|223"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 223",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 930,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 224",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|224"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 224",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 945,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 225",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|225"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 225",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 945,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 226",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|226"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 226",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 960,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 227",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|227"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 227",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 975,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 228",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|228"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 228",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 975,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 210",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|210"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 210",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 800,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 211",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|211"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 211",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 800,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 209",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|209"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 209",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 785,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 207",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|207"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 207",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 770,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 208",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|208"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 208",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 770,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 206",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|206"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 206",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 755,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 204",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|204"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 204",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 740,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 205",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|205"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 205",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 740,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 203",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|203"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 203",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 725,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 201",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|201"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 201",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 710,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 202",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|202"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 202",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 710,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 200",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|200"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 200",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 695,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 198",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|198"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 198",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 680,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 199",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|199"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 199",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 680,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 197",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|197"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 140",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 665,
+                        "y": 1305
+                    }
+                ]
+            },
+            {
+                "name": "Coin 195",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|195"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 195",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 650,
+                        "y": 1335
+                    }
+                ]
+            },
+            {
+                "name": "Coin 196",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|196"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 196",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 650,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "Coin 238",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|238"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 238",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Coin 239",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|239"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 239",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 475
+                    }
+                ]
+            },
+            {
+                "name": "Coin 240",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|240"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 240",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 515
+                    }
+                ]
+            },
+            {
+                "name": "Coin 241",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|241"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 241",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 835
+                    }
+                ]
+            },
+            {
+                "name": "Coin 242",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|242"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 242",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 880
+                    }
+                ]
+            },
+            {
+                "name": "Coin 243",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|243"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 243",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 925
+                    }
+                ]
+            },
+            {
+                "name": "Coin 244",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|244"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 244",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 1140
+                    }
+                ]
+            },
+            {
+                "name": "Coin 245",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|245"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 245",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 1230
+                    }
+                ]
+            },
+            {
+                "name": "Coin 246",
+                "visibility_rules": [
+                    "coinsanity"
+                ],
+                "access_rules": [
+                    "^$coin_access|246"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin 246",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 50,
+                        "y": 1320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Robot 1",
+        "children": [
+            {
+                "name": "Robot 1",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$enemy_access|1"
+                ],
+                "sections": [
+                    {
+                        "name": "Robot 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 830,
+                        "y": 1120
+                    }
+                ]
+            },
+            {
+                "name": "Robot 2",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$enemy_access|2"
+                ],
+                "sections": [
+                    {
+                        "name": "Robot 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 370,
+                        "y": 840
+                    }
+                ]
+            },
+            {
+                "name": "Robot 5",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$enemy_access|5"
+                ],
+                "sections": [
+                    {
+                        "name": "Robot 5",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 290,
+                        "y": 1470
+                    }
+                ]
+            },
+            {
+                "name": "Robot 4",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$enemy_access|4"
+                ],
+                "sections": [
+                    {
+                        "name": "Robot 4",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 420,
+                        "y": 1470
+                    }
+                ]
+            },
+            {
+                "name": "Robot 3",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$enemy_access|3"
+                ],
+                "sections": [
+                    {
+                        "name": "Robot 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 795,
+                        "y": 1470
+                    }
+                ]
+            },
+            {
+                "name": "Robot 6",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$enemy_access|6"
+                ],
+                "sections": [
+                    {
+                        "name": "Robot 6",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 900,
+                        "y": 1470
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gun",
+        "children": [
+            {
+                "name": "Gun",
+                "access_rules": [
+                    "^$gun_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Gun",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
+                        "y": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bombs",
+        "children": [
+            {
+                "name": "Bomb 1",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$bomb_access|1"
+                ],
+                "sections": [
+                    {
+                        "name": "Bomb 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1210,
+                        "y": 255
+                    }
+                ]
+            },
+            {
+                "name": "Bomb 2",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$bomb_access|2"
+                ],
+                "sections": [
+                    {
+                        "name": "Bomb 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1405,
+                        "y": 470
+                    }
+                ]
+            },
+            {
+                "name": "Bomb 3",
+                "visibility_rules": [
+                    "enemysanity"
+                ],
+                "access_rules": [
+                    "^$bomb_access|3"
+                ],
+                "sections": [
+                    {
+                        "name": "Bomb 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 440,
+                        "y": 1080
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shop",
+        "children": [
+            {
+                "name": "Speed",
+                "sections": [
+                    {
+                        "name": "Speed 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|1"
+                        ]
+                    },
+                    {
+                        "name": "Speed 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|2"
+                        ]
+                    },
+                    {
+                        "name": "Speed 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|3"
+                        ]
+                    },
+                    {
+                        "name": "Speed 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|4"
+                        ]
+                    },
+                    {
+                        "name": "Speed 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|5"
+                        ]
+                    },
+                    {
+                        "name": "Speed 6",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|6"
+                        ]
+                    },
+                    {
+                        "name": "Speed 7",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|7"
+                        ]
+                    },
+                    {
+                        "name": "Speed 8",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|8"
+                        ]
+                    },
+                    {
+                        "name": "Speed 9",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|9"
+                        ]
+                    },
+                    {
+                        "name": "Speed 10",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$speed_shop_access|10"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 30
+                    }
+                ]
+            },
+            {
+                "name": "Jump Power",
+                "sections": [
+                    {
+                        "name": "Jump Power 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|1"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|2"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|3"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|4"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|5"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 6",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|6"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 7",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|7"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 8",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|8"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 9",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|9"
+                        ]
+                    },
+                    {
+                        "name": "Jump Power 10",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$jump_shop_access|10"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 80
+                    }
+                ]
+            },
+            {
+                "name": "Double Jump",
+                "sections": [
+                    {
+                        "name": "Double Jump",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$double_jump_shop_access"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 135
+                    }
+                ]
+            },
+            {
+                "name": "Time Limit",
+                "sections": [
+                    {
+                        "name": "Time Limit 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|1"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|2"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|3"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|4"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|5"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 6",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|6"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 7",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|7"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 8",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|8"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 9",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|9"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 10",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|10"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 11",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|11"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 12",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|12"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 13",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|13"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 14",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|14"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 15",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|15"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 16",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|16"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 17",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|17"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 18",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|18"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 19",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|19"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 20",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|20"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 21",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|21"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 22",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|22"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 23",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|23"
+                        ]
+                    },
+                    {
+                        "name": "Time Limit 24",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$time_shop_access|24"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 190
+                    }
+                ]
+            },
+            {
+                "name": "Energy",
+                "sections": [
+                    {
+                        "name": "Energy 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$health_shop_access|1"
+                        ]
+                    },
+                    {
+                        "name": "Energy 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$health_shop_access|2"
+                        ]
+                    },
+                    {
+                        "name": "Energy 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$health_shop_access|3"
+                        ]
+                    },
+                    {
+                        "name": "Energy 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$health_shop_access|4"
+                        ]
+                    },
+                    {
+                        "name": "Energy 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$health_shop_access|5"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Ammo",
+                "sections": [
+                    {
+                        "name": "Ammo 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|1"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|2"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|3"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|4"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|5"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 6",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|6"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 7",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|7"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 8",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|8"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 9",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|9"
+                        ]
+                    },
+                    {
+                        "name": "Ammo 10",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$ammo_shop_access|10"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Gun Power",
+                "sections": [
+                    {
+                        "name": "Gun Power 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$gun_power_shop_access|1"
+                        ]
+                    },
+                    {
+                        "name": "Gun Power 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$gun_power_shop_access|2"
+                        ]
+                    },
+                    {
+                        "name": "Gun Power 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$gun_power_shop_access|3"
+                        ]
+                    },
+                    {
+                        "name": "Gun Power 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$gun_power_shop_access|4"
+                        ]
+                    },
+                    {
+                        "name": "Gun Power 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$gun_power_shop_access|5"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 355
+                    }
+                ]
+            },
+            {
+                "name": "Coin Multiplier",
+                "sections": [
+                    {
+                        "name": "Coin Multiplier 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|1"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|2"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|3"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|4"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|5"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 6",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|6"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 7",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|7"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 8",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|8"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 9",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|9"
+                        ]
+                    },
+                    {
+                        "name": "Coin Multiplier 10",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$coin_multiplier_shop_access|10"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shop",
+                        "x": 550,
+                        "y": 470
+                    }
+                ]
+            }
+        ]
+    }
+]
