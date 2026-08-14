@@ -37,35 +37,25 @@ local function reset_location(code)
 end
 
 
-local function set_hint_highlight(location_id, hinted)
+local HINT_KEY = nil
+HINTED_LOCATIONS = HINTED_LOCATIONS or {}
 
-    local codes = LOCATION_MAPPING[location_id]
+local function force_hint_logic_refresh()
 
-    if codes == nil then
-        debug_log("Hinted location is unmapped:", location_id)
+    local obj = Tracker:FindObjectForCode("hint_refresh")
+
+    if obj == nil then
+        debug_log("Missing hint_refresh item")
         return
     end
 
-    for _, code in ipairs(codes) do
+    obj.Active = not obj.Active
 
-        local obj = Tracker:FindObjectForCode(code)
-
-        if obj ~= nil then
-
-            if hinted then
-                obj.Highlight = Highlight.Priority
-            else
-                obj.Highlight = Highlight.None
-            end
-
-        else
-            debug_log("Could not find hinted location:", code)
-        end
-    end
+    debug_log(
+        "Hint logic refresh:",
+        tostring(obj.Active)
+    )
 end
-
-local HINT_KEY = nil
-local ACTIVE_HINTS = {}
 
 local function onClear(slot_data)
     debug_log("Connected; resetting tracked state")
@@ -99,7 +89,9 @@ local function onClear(slot_data)
         end
     end
 
-    ACTIVE_HINTS = {}
+    for location_id, _ in pairs(HINTED_LOCATIONS) do
+        HINTED_LOCATIONS[location_id] = nil
+    end
 
     local team = Archipelago.TeamNumber
     local player = Archipelago.PlayerNumber
@@ -165,24 +157,24 @@ local function onLocation(location_id, location_name)
         end
     end
 
+    HINTED_LOCATIONS[location_id] = nil
+
     debug_log("Location", location_id, location_name, "checked")
 end
 
 
 
-local function clear_hint_highlights()
+local function clear_hints()
 
-    for location_id, _ in pairs(ACTIVE_HINTS) do
-        set_hint_highlight(location_id, false)
+    for location_id, _ in pairs(HINTED_LOCATIONS) do
+        HINTED_LOCATIONS[location_id] = nil
     end
-
-    ACTIVE_HINTS = {}
 end
 
 
 local function apply_hints(hints)
 
-    clear_hint_highlights()
+    clear_hints()
 
     if type(hints) ~= "table" then
         debug_log("Hint data was not a table")
@@ -209,16 +201,13 @@ local function apply_hints(hints)
                 and LOCATION_MAPPING[location_id] ~= nil
             then
 
-                set_hint_highlight(location_id, true)
-                ACTIVE_HINTS[location_id] = true
+                HINTED_LOCATIONS[location_id] = true
 
-                debug_log(
-                    "Hinted location:",
-                    location_id
-                )
+                debug_log("Hinted location:", location_id)
             end
         end
     end
+    force_hint_logic_refresh()
 end
 
 

@@ -130,5 +130,12 @@
         "img": "images/options/knockback.png",
         "codes": "knockback_logic",
         "initial_active_state": false
-}
+    },
+    {
+        "name": "Hint Refresh",
+        "type": "toggle",
+        "img": "images/options/coinsanity.png",
+        "codes": "hint_refresh",
+        "initial_active_state": false
+    }
 ]

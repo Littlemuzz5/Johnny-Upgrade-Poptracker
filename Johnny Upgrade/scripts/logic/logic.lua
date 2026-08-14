@@ -10,6 +10,67 @@ local function tracker_count(code)
     return Tracker:ProviderCountForCode(code)
 end
 
+local function set_location_glow(location_id, enabled)
+
+    if LOCATION_MAPPING == nil then
+        return
+    end
+
+    local codes = LOCATION_MAPPING[location_id]
+
+    if codes == nil then
+        return
+    end
+
+    for _, code in ipairs(codes) do
+        local obj = Tracker:FindObjectForCode(code)
+
+        if obj ~= nil then
+            if enabled then
+                obj.Highlight = Highlight.Priority
+            else
+                obj.Highlight = Highlight.None
+            end
+        end
+    end
+end
+
+local function hinted_access(location_id, normal_access)
+
+    -- Forces hint logic to update when hints change
+    tracker_count("hint_refresh")
+
+    local hinted =
+        HINTED_LOCATIONS ~= nil
+        and HINTED_LOCATIONS[location_id]
+
+    if not hinted then
+        set_location_glow(location_id, false)
+        return normal_access
+    end
+
+    if normal_access == AccessibilityLevel.Normal then
+        set_location_glow(location_id, true)
+
+        return AccessibilityLevel.Inspect
+    end
+
+    if normal_access == AccessibilityLevel.SequenceBreak then
+        set_location_glow(location_id, false)
+
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    if normal_access == AccessibilityLevel.None then
+        set_location_glow(location_id, false)
+
+        return AccessibilityLevel.Inspect
+    end
+
+
+    set_location_glow(location_id, false)
+    return normal_access
+end
 
 local function setting_enabled(code, fallback)
     local obj = Tracker:FindObjectForCode(code)
@@ -184,11 +245,13 @@ function coin_access(coin_number)
     local class_id = COIN_REQUIREMENT_IDS[coin_number]
 
     if class_id == nil then
-        print("Johnny Upgrade logic: no requirement for Coin " .. tostring(coin_number))
         return AccessibilityLevel.None
     end
 
-    return requirement_class_access(class_id)
+    local access = requirement_class_access(class_id)
+    local location_id = 9990075 + coin_number
+
+    return hinted_access(location_id, access)
 end
 
 
@@ -204,11 +267,13 @@ function enemy_access(enemy_number)
     local class_id = ENEMY_REQUIREMENT_IDS[enemy_number]
 
     if class_id == nil then
-        print("Johnny Upgrade logic: no requirement for Robot " .. tostring(enemy_number))
         return AccessibilityLevel.None
     end
 
-    return requirement_class_access(class_id)
+    local access = requirement_class_access(class_id)
+    local location_id = 9990321 + enemy_number
+
+    return hinted_access(location_id, access)
 end
 
 
@@ -273,7 +338,8 @@ end
 
 
 function gun_access()
-    return requirement_class_access(GUN_REQUIREMENT_ID)
+    local access = requirement_class_access(GUN_REQUIREMENT_ID)
+    return hinted_access(9990000, access)
 end
 
 
@@ -424,6 +490,8 @@ local SHOP_MULTIPLIER_GATES = {
 
 
 
+
+
 local function shop_tier_in_logic(track, tier)
 
     tier = tonumber(tier)
@@ -450,11 +518,7 @@ local function shop_tier_in_logic(track, tier)
     end
 
 
-    if track == "ammo" or track == "gun_power" then
-        if tracker_count("gun") < 1 then
-            return false
-        end
-    end
+
 
 
     local track_gates = SHOP_MULTIPLIER_GATES[track]
@@ -489,47 +553,133 @@ end
 
 
 function speed_shop_access(tier)
-    return shop_tier_access("speed", tier)
+
+    tier = tonumber(tier)
+
+    if tier == nil then
+        return AccessibilityLevel.None
+    end
+
+    local access = shop_tier_access("speed", tier)
+    local location_id = 9990000 + tier
+
+    return hinted_access(location_id, access)
+
 end
 
-
 function jump_shop_access(tier)
-    return shop_tier_access("jump_force", tier)
+
+    tier = tonumber(tier)
+
+    if tier == nil then
+        return AccessibilityLevel.None
+    end
+
+    local access = shop_tier_access("jump_force", tier)
+    local location_id = 9990010 + tier
+
+    return hinted_access(location_id, access)
 end
 
 
 function double_jump_shop_access()
-    return shop_tier_access("double_jump", 1)
+    local access = shop_tier_access("double_jump", 1)
+    return hinted_access(9990021, access)
 end
 
 
 function time_shop_access(tier)
-    return shop_tier_access("time_limit", tier)
+
+    tier = tonumber(tier)
+
+    if tier == nil then
+        return AccessibilityLevel.None
+    end
+
+    local access = shop_tier_access("time_limit", tier)
+    local location_id = 9990021 + tier
+
+    return hinted_access(location_id, access)
 end
 
 
 function health_shop_access(tier)
-    return shop_tier_access("health", tier)
-end
 
+    tier = tonumber(tier)
 
-function energy_shop_access(tier)
-    return health_shop_access(tier)
+    if tier == nil then
+        return AccessibilityLevel.None
+    end
+
+    local access = shop_tier_access("health", tier)
+    local location_id = 9990045 + tier
+
+    return hinted_access(location_id, access)
 end
 
 
 function ammo_shop_access(tier)
-    return shop_tier_access("ammo", tier)
+
+    tier = tonumber(tier)
+
+    if tier == nil then
+        return AccessibilityLevel.None
+    end
+
+    local location_id = 9990050 + tier
+
+    -- No Gun yet: normally red,
+    -- but hinted_access can make it blue.
+    if tracker_count("gun") < 1 then
+        return hinted_access(
+            location_id,
+            AccessibilityLevel.None
+        )
+    end
+
+    local access = shop_tier_access("ammo", tier)
+
+    return hinted_access(location_id, access)
 end
 
 
 function gun_power_shop_access(tier)
-    return shop_tier_access("gun_power", tier)
+
+    tier = tonumber(tier)
+
+    if tier == nil then
+        return AccessibilityLevel.None
+    end
+
+    local location_id = 9990060 + tier
+
+    -- No Gun yet: normally red,
+    -- but hinted_access can make it blue.
+    if tracker_count("gun") < 1 then
+        return hinted_access(
+            location_id,
+            AccessibilityLevel.None
+        )
+    end
+
+    local access = shop_tier_access("gun_power", tier)
+
+    return hinted_access(location_id, access)
 end
 
 
 function coin_multiplier_shop_access(tier)
-    return shop_tier_access("coin_multiplier", tier)
+
+    tier = tonumber(tier)
+
+    if tier == nil then
+        return AccessibilityLevel.None
+    end
+
+    local access = shop_tier_access("coin_multiplier", tier)
+    local location_id = 9990065 + tier
+
+    return hinted_access(location_id, access)
 end
 
 
